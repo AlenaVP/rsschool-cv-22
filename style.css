@@ -1,0 +1,71 @@
+/* general */
+html {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+/* wrapper */
+.wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+/* header */
+.header-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* nav */
+.nav-list {
+  display: flex;
+  justify-content: end;
+}
+
+.nav-list .list-item {
+  padding: 10px 5px;
+}
+
+/* main */
+.main-wrapper {
+  display: flex;
+}
+
+.sidebar {
+  min-width: 260px;
+}
+
+/* footer */
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
