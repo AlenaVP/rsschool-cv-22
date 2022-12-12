@@ -35,6 +35,16 @@ a {
   color: black;
 }
 
+pre {
+  border: none;
+  border-radius: 8px;
+  font-size: 1.07em;
+  font-weight: bold;
+  color: #8e5c4a;
+  background-color: #e3b3aa;
+  box-shadow: inset 0 0 10px #8e5c4a;
+}
+
 .hidden {
   display: none;
 }
@@ -85,4 +95,5 @@ a {
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
