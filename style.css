@@ -2,8 +2,10 @@
 html {
   font-family: "Segoe UI", Arial, sans-serif;
   scroll-behavior: smooth;
+  background-color: #fee6da;
 }
 
+/* ! if font-size more than 16px .wrapper max-width should be more than 768px ! */
 body {
   margin: 0;
 }
@@ -66,10 +68,17 @@ a {
 /* main */
 .main-wrapper {
   display: flex;
+  padding: 10px;
 }
 
 .sidebar {
+  padding: 0px 10px;
   min-width: 260px;
+}
+
+.main-content {
+  padding: 0px 10px;
+  background-color: #ffd6d2;
 }
 
 /* footer */
