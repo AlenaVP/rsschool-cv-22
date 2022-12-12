@@ -13,8 +13,11 @@ h3 {
   font-weight: 600;
 }
 
-h3 {
-  font-size: 20px;
+h1 {
+  font-size: 2em;
+}
+
+h2 {
   text-transform: capitalize;
 }
 
@@ -40,10 +43,6 @@ a {
 }
 
 /* header */
-.header-wrapper {
-  display: flex;
-  flex-direction: column-reverse;
-}
 
 /* nav */
 .nav-list {
