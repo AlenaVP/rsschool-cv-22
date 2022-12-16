@@ -8,6 +8,10 @@ html {
 /* ! if font-size more than 16px .wrapper max-width should be more than 768px ! */
 body {
   margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1,
@@ -79,11 +83,16 @@ pre {
 }
 
 /* header */
+.header-wrapper {
+  height: 60px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
 
 /* nav */
 .nav-list {
   display: flex;
-  justify-content: end;
 }
 
 .nav-list a {
