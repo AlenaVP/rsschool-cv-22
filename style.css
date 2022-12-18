@@ -119,11 +119,11 @@ pre {
   min-width: 260px;
 }
 
-figure {
+.ava {
   align-self: flex-start;
 }
 
-figure::after {
+.ava::after {
   z-index: -1;
   position: absolute;
   top: -10px;
@@ -143,6 +143,19 @@ figure::after {
 .main-content {
   padding: 0px 10px;
   background-color: #ffd6d2;
+}
+
+.portfolio_item {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  height: 26vh;
+}
+
+.portfolio_img {
+  width: 20vw;
+  border-radius: 10px;
+  transition: all 0.3s;
 }
 
 /* footer */
